@@ -45,7 +45,7 @@
     "user_name": "Varshith Goud"
   },
   "ai_engine": {
-    "gemini_api_key": "AIzaSyBeP8FkK89a4ok0lvZcwpJF3p_qqsS1fxQ",
+    "gemini_api_key": "",
     "provider": "gemini"
   }
 }
