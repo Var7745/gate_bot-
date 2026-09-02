@@ -1,2 +1,0 @@
-# Zero external requirements needed!
-# The entire GATE 2027 AI Companion runs natively using Python 3.10+ standard library.
