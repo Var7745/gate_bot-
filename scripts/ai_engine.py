@@ -64,10 +64,11 @@ def call_gemini(prompt, api_key):
     Calls Google Gemini REST API.
     Free tier allows up to 1,500 requests per day via Google AI Studio.
     Tries gemini-1.5-flash, gemini-2.0-flash, or gemini-2.5-flash.
-    """
-    candidate_models = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-2.5-flash", "gemini-1.5-pro"]
-    last_err = None
-
+ candidate_models = [
+    "gemini-3.5-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-3.6-flash"
+ ]
     for model in candidate_models:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
         payload = {
