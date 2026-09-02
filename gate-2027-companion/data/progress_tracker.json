@@ -1,0 +1,20 @@
+{
+  "start_date": "2026-09-02",
+  "current_streak_days": 1,
+  "last_active_date": "2026-09-02",
+  "completed_modules": [],
+  "in_progress_module": "DM-01",
+  "total_study_hours": 0.0,
+  "total_pyqs_solved": 0,
+  "daily_logs": [
+    {
+      "date": "2026-09-02",
+      "time": "19:00",
+      "module_id": "DM-01",
+      "subject": "Discrete Mathematics & Engineering Mathematics",
+      "title": "Propositional and First-Order Logic",
+      "status": "in_progress",
+      "notes": "Initiated GATE 2027 preparation journey. Target: Propositional Logic truth tables and logical equivalences."
+    }
+  ]
+}

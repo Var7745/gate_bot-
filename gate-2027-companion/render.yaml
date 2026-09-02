@@ -1,0 +1,10 @@
+services:
+  - type: worker
+    name: gate-2027-telegram-ai-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python scripts/bot_service.py
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
