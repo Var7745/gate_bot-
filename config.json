@@ -1,0 +1,51 @@
+{
+  "branch": "CS",
+  "branch_name": "Computer Science and Information Technology",
+  "branch_options": [
+    {
+      "code": "CS",
+      "name": "Computer Science & Information Technology"
+    },
+    {
+      "code": "DA",
+      "name": "Data Science & Artificial Intelligence"
+    },
+    {
+      "code": "EC",
+      "name": "Electronics & Communication Engineering"
+    },
+    {
+      "code": "EE",
+      "name": "Electrical Engineering"
+    },
+    {
+      "code": "ME",
+      "name": "Mechanical Engineering"
+    },
+    {
+      "code": "CE",
+      "name": "Civil Engineering"
+    }
+  ],
+  "exam_name": "GATE 2027",
+  "exam_target_date": "2027-02-06T09:30:00",
+  "daily_reminder_time": "19:00",
+  "daily_study_goal_hours": 2.5,
+  "notification_enabled": true,
+  "auto_open_youtube": true,
+  "current_phase": "Phase 1: Comprehensive Concept Mastery & Foundation",
+  "current_day_index": 1,
+  "streak_days": 0,
+  "last_dispatched_date": null,
+  "telegram": {
+    "enabled": true,
+    "bot_token": "6786681018:AAFiSxa-DdB-JdLugKzMwzW52cCr1jKaebE",
+    "chat_id": "1171112800",
+    "bot_username": "Varshith772bot",
+    "user_name": "Varshith Goud"
+  },
+  "ai_engine": {
+    "gemini_api_key": "AIzaSyBeP8FkK89a4ok0lvZcwpJF3p_qqsS1fxQ",
+    "provider": "gemini"
+  }
+}
