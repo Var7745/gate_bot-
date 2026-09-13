@@ -1,0 +1,30 @@
+{
+  "start_date": "2026-09-02",
+  "current_streak_days": 1,
+  "last_active_date": "2026-09-02",
+  "completed_modules": [],
+  "in_progress_module": "NET-M01",
+  "total_study_hours": 0.0,
+  "total_pyqs_solved": 0,
+  "quiz_stats": {
+    "attempted": 1,
+    "correct": 0,
+    "by_subject": {
+      "NET": {
+        "attempted": 1,
+        "correct": 0
+      }
+    }
+  },
+  "daily_logs": [
+    {
+      "date": "2026-09-02",
+      "time": "19:00",
+      "module_id": "NET-M01",
+      "subject": "Networks, Signals & Systems",
+      "title": "Circuit Analysis Techniques: Nodal & Mesh Analysis",
+      "status": "in_progress",
+      "notes": "Initiated GATE ECE 2027 preparation journey."
+    }
+  ]
+}

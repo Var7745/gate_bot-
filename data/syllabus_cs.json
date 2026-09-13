@@ -1,0 +1,833 @@
+{
+  "exam": "GATE 2027",
+  "branch": "CS",
+  "branch_title": "Computer Science & Information Technology",
+  "total_marks": 100,
+  "sections": [
+    {
+      "name": "General Aptitude",
+      "weightage_marks": 15
+    },
+    {
+      "name": "Engineering Mathematics & Discrete Math",
+      "weightage_marks": 13
+    },
+    {
+      "name": "Core Computer Science Subjects",
+      "weightage_marks": 72
+    }
+  ],
+  "subjects": [
+    {
+      "id": "discrete_math",
+      "name": "Discrete Mathematics & Engineering Mathematics",
+      "weightage": "13-15%",
+      "primary_educators": [
+        "Amit Khurana",
+        "Dr. Gajendra Purohit",
+        "Gate Smashers",
+        "NPTEL"
+      ],
+      "featured_playlist": {
+        "title": "Amit Khurana Discrete Mathematics Complete Masterclass",
+        "url": "https://www.youtube.com/playlist?list=PLC36xJGs4dxG4vjXwT_rLw54V0z_0eW1D"
+      },
+      "modules": [
+        {
+          "id": "DM-01",
+          "title": "Propositional and First-Order Logic",
+          "topics": [
+            "Truth tables",
+            "Tautology & Contradiction",
+            "Logical Equivalences",
+            "Predicates & Quantifiers",
+            "Inference Rules"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Propositional Logic Fundamentals - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=xlUFkM7A2s8"
+            },
+            {
+              "title": "First Order Predicate Logic & Quantifiers - Amit Khurana",
+              "url": "https://www.youtube.com/watch?v=1K5_0aK_eLw"
+            }
+          ],
+          "key_points": "Focus on translating English sentences into first-order logic with universal and existential quantifiers.",
+          "pyq_target": "Solve 15 PYQs from 2012-2026 on Logic and Equivalence"
+        },
+        {
+          "id": "DM-02",
+          "title": "Set Theory, Relations & Functions",
+          "topics": [
+            "Venn diagrams",
+            "Equivalence relations",
+            "Partial orders & Hasse diagrams",
+            "Lattices",
+            "Bijections and Pigeonhole Principle"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Equivalence Relations and Partial Order - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=2r1T4b_M2a0"
+            },
+            {
+              "title": "Hasse Diagrams & Lattices - Amit Khurana",
+              "url": "https://www.youtube.com/watch?v=9gB6qjM7tEw"
+            }
+          ],
+          "key_points": "Properties of Reflexive, Symmetric, Transitive closures and identifying complemented/distributive lattices.",
+          "pyq_target": "Solve 12 PYQs on Lattices and Relations"
+        },
+        {
+          "id": "DM-03",
+          "title": "Combinatorics & Graph Theory",
+          "topics": [
+            "Permutations & Combinations",
+            "Generating functions",
+            "Recurrence relations",
+            "Eulerian & Hamiltonian graphs",
+            "Planar graphs",
+            "Graph coloring"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Graph Theory for GATE - Amit Khurana",
+              "url": "https://www.youtube.com/watch?v=F3_d1sQ9K0M"
+            },
+            {
+              "title": "Euler and Hamiltonian Graphs - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=uK8f9g4wL20"
+            }
+          ],
+          "key_points": "Planar graph Euler formula: V - E + R = 2. Handshaking lemma: Sum of degrees = 2E.",
+          "pyq_target": "Solve 20 PYQs on Graph Theory and Chromatic Number"
+        },
+        {
+          "id": "EM-01",
+          "title": "Linear Algebra & Calculus",
+          "topics": [
+            "Matrix Rank",
+            "System of Linear Equations",
+            "Eigenvalues & Eigenvectors",
+            "Cayley-Hamilton Theorem",
+            "Limits & Maxima/Minima"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Eigenvalues & Eigenvectors Short Tricks - Dr. Gajendra Purohit",
+              "url": "https://www.youtube.com/watch?v=kYv_6uG59fE"
+            },
+            {
+              "title": "Linear Algebra for GATE CS - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=JbYQ_bN7X2A"
+            }
+          ],
+          "key_points": "Sum of eigenvalues = Trace of matrix. Product of eigenvalues = Determinant. AX=B consistency check.",
+          "pyq_target": "Solve 15 PYQs on Eigenvalues and System of Equations"
+        },
+        {
+          "id": "EM-02",
+          "title": "Probability & Statistics",
+          "topics": [
+            "Conditional Probability",
+            "Bayes Theorem",
+            "Random Variables",
+            "Uniform, Exponential, Poisson & Normal Distribution"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Bayes Theorem Made Easy - Dr. Gajendra Purohit",
+              "url": "https://www.youtube.com/watch?v=m7HhG6yVj24"
+            },
+            {
+              "title": "Poisson & Normal Distribution for GATE - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=v_8R1d8wE7c"
+            }
+          ],
+          "key_points": "Bayes theorem is tested nearly every year. Practice expectation E(X) and Variance.",
+          "pyq_target": "Solve 15 PYQs on Bayes Theorem and Discrete Distributions"
+        }
+      ]
+    },
+    {
+      "id": "dsa",
+      "name": "Programming & Data Structures",
+      "weightage": "9-11%",
+      "primary_educators": [
+        "Abdul Bari",
+        "Jenny's Lectures",
+        "Gate Smashers"
+      ],
+      "featured_playlist": {
+        "title": "Abdul Bari Data Structures & Algorithms Series",
+        "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O"
+      },
+      "modules": [
+        {
+          "id": "DS-01",
+          "title": "C Programming, Pointers & Recursion",
+          "topics": [
+            "Pointers arithmetic",
+            "Function pointers",
+            "Recursion stack traces",
+            "Dynamic memory allocation",
+            "Structures"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Pointers in C in Depth - Jenny's Lectures",
+              "url": "https://www.youtube.com/watch?v=2ybLDQapoVo"
+            },
+            {
+              "title": "Recursion Tracing and Call Stack - Abdul Bari",
+              "url": "https://www.youtube.com/watch?v=mvmN3U0_eAE"
+            }
+          ],
+          "key_points": "Trace recursive functions line-by-line using recursion tree. Beware of post/pre-increment inside recursion.",
+          "pyq_target": "Solve 20 C output questions from GATE 2015-2026"
+        },
+        {
+          "id": "DS-02",
+          "title": "Linear Data Structures: Stacks, Queues & Linked Lists",
+          "topics": [
+            "Singly and Doubly Linked Lists",
+            "Stack operations & Infix to Postfix",
+            "Queue using Stacks",
+            "Circular Queues"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Infix to Postfix Conversion and Evaluation - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=P_Vfl9rVpG4"
+            },
+            {
+              "title": "Linked List Operations - Jenny's Lectures",
+              "url": "https://www.youtube.com/watch?v=NobHlGu_0nI"
+            }
+          ],
+          "key_points": "Time complexities of linked list reversing, queue operations with 2 stacks, and circular queue pointer conditions.",
+          "pyq_target": "Solve 12 PYQs on Stacks and Linked Lists"
+        },
+        {
+          "id": "DS-03",
+          "title": "Trees, BST, AVL Trees & Heaps",
+          "topics": [
+            "Binary Tree Traversals (Inorder, Preorder, Postorder)",
+            "BST Insertion/Deletion",
+            "AVL Rotations",
+            "Min/Max Heap construction & HeapSort"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Binary Tree & BST Complete - Abdul Bari",
+              "url": "https://www.youtube.com/watch?v=H5JubkIy_ss"
+            },
+            {
+              "title": "AVL Tree Rotations (LL, RR, LR, RL) - Abdul Bari",
+              "url": "https://www.youtube.com/watch?v=jDM6_TnYIuE"
+            }
+          ],
+          "key_points": "Properties: For N nodes, number of null pointers = N+1. Reconstructing binary tree requires Inorder + Pre/Postorder.",
+          "pyq_target": "Solve 25 PYQs on Trees, AVL, and Heap properties"
+        }
+      ]
+    },
+    {
+      "id": "algorithms",
+      "name": "Algorithms Design & Analysis",
+      "weightage": "8-10%",
+      "primary_educators": [
+        "Abdul Bari",
+        "Gate Smashers"
+      ],
+      "featured_playlist": {
+        "title": "Abdul Bari Algorithms Complete Series (The Gold Standard)",
+        "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O"
+      },
+      "modules": [
+        {
+          "id": "ALGO-01",
+          "title": "Asymptotic Notations & Recurrence Relations",
+          "topics": [
+            "Big-O, Omega, Theta, Little-o/omega",
+            "Master Theorem (All Cases)",
+            "Substitution & Recursion Tree Methods"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Asymptotic Notations Big O, Omega, Theta - Abdul Bari",
+              "url": "https://www.youtube.com/watch?v=A03oI0znAoc"
+            },
+            {
+              "title": "Master Theorem for Divide & Conquer - Abdul Bari",
+              "url": "https://www.youtube.com/watch?v=2KpS_k2tFjM"
+            }
+          ],
+          "key_points": "Understand Master Theorem extended cases. Compare logarithmic and polynomial growth rates.",
+          "pyq_target": "Solve 18 PYQs on Asymptotic analysis and Master Theorem"
+        },
+        {
+          "id": "ALGO-02",
+          "title": "Divide & Conquer, Sorting & Searching",
+          "topics": [
+            "Merge Sort",
+            "Quick Sort (Best/Worst case)",
+            "Binary Search",
+            "Linear vs Binary Search Comparisons"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Merge Sort Algorithm and Complexity - Abdul Bari",
+              "url": "https://www.youtube.com/watch?v=ak-pz7tS5DE"
+            },
+            {
+              "title": "Quick Sort Analysis and Partitioning - Abdul Bari",
+              "url": "https://www.youtube.com/watch?v=7h1s2SojIRw"
+            }
+          ],
+          "key_points": "Quick sort worst case O(n^2) when array already sorted. Merge sort extra space O(n). Stability comparison.",
+          "pyq_target": "Solve 15 PYQs on Sorting algorithms and comparisons"
+        },
+        {
+          "id": "ALGO-03",
+          "title": "Greedy Algorithms & Dynamic Programming",
+          "topics": [
+            "Fractional Knapsack",
+            "Huffman Coding",
+            "Kruskal and Prim MST",
+            "Dijkstra Algorithm",
+            "0/1 Knapsack",
+            "LCS",
+            "Matrix Chain Multiplication"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Dijkstra Single Source Shortest Path - Abdul Bari",
+              "url": "https://www.youtube.com/watch?v=XB4MIexjvY0"
+            },
+            {
+              "title": "0/1 Knapsack Problem Dynamic Programming - Abdul Bari",
+              "url": "https://www.youtube.com/watch?v=nLmhmB6NzcM"
+            },
+            {
+              "title": "Longest Common Subsequence (LCS) - Abdul Bari",
+              "url": "https://www.youtube.com/watch?v=sSno9rV8Rhg"
+            }
+          ],
+          "key_points": "Greedy choice property vs Optimal Substructure. Negative edge cycles break Dijkstra. Huffman tree calculation is frequent.",
+          "pyq_target": "Solve 20 PYQs on Dijkstra, MST, and Dynamic Programming"
+        }
+      ]
+    },
+    {
+      "id": "toc",
+      "name": "Theory of Computation (TOC)",
+      "weightage": "8-10%",
+      "primary_educators": [
+        "Amit Khurana",
+        "Gate Smashers",
+        "Knowledge Gate"
+      ],
+      "featured_playlist": {
+        "title": "Amit Khurana TOC Complete Series",
+        "url": "https://www.youtube.com/playlist?list=PLC36xJGs4dxEcO0B_k_iL6uF_vA4xTf6_"
+      },
+      "modules": [
+        {
+          "id": "TOC-01",
+          "title": "Finite Automata & Regular Languages",
+          "topics": [
+            "DFA design",
+            "NFA to DFA conversion",
+            "Minimization of DFA",
+            "Regular expressions",
+            "Closure properties"
+          ],
+          "recommended_videos": [
+            {
+              "title": "DFA Construction with Tricks - Amit Khurana",
+              "url": "https://www.youtube.com/watch?v=0hYVw6mZ43g"
+            },
+            {
+              "title": "Minimization of DFA Step-by-Step - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=0XaGAkY09Wc"
+            }
+          ],
+          "key_points": "Number of states for string ending with substring vs containing substring. Regular languages closed under complement, intersection, reversal.",
+          "pyq_target": "Solve 25 PYQs on DFA minimization and Regular expressions"
+        },
+        {
+          "id": "TOC-02",
+          "title": "Context-Free Languages & Pushdown Automata",
+          "topics": [
+            "CFG derivation",
+            "Ambiguity in CFG",
+            "Chomsky Normal Form",
+            "Pushdown Automata (DPDA vs NPDA)",
+            "Pumping Lemma"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Pushdown Automata (PDA) Explained - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=2T_V7r8K2r4"
+            },
+            {
+              "title": "Ambiguous Grammar & Parse Trees - Amit Khurana",
+              "url": "https://www.youtube.com/watch?v=7_Y7f9rQx_k"
+            }
+          ],
+          "key_points": "DCFL is accepted by DPDA. DCFL not closed under union/intersection, but closed under complementation.",
+          "pyq_target": "Solve 18 PYQs on CFLs, DPDA, and Ambiguity"
+        },
+        {
+          "id": "TOC-03",
+          "title": "Turing Machines & Decidability",
+          "topics": [
+            "Turing Machine variants",
+            "Recursive vs Recursively Enumerable languages",
+            "Halting Problem",
+            "Undecidable problems"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Decidability & Undecidability Master Table - Amit Khurana",
+              "url": "https://www.youtube.com/watch?v=4T8r4d9wK7M"
+            },
+            {
+              "title": "Chomsky Hierarchy Explained - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=9oP_oM1t6Uo"
+            }
+          ],
+          "key_points": "Memorize the Decidability closure matrix (Emptiness, Finiteness, Membership, Equivalence).",
+          "pyq_target": "Solve 20 PYQs on Decidability matrix and Turing machines"
+        }
+      ]
+    },
+    {
+      "id": "compiler",
+      "name": "Compiler Design",
+      "weightage": "4-5%",
+      "primary_educators": [
+        "Gate Smashers",
+        "Amit Khurana"
+      ],
+      "featured_playlist": {
+        "title": "Gate Smashers Compiler Design Series",
+        "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiEKtKSIHYusizkESC42diyc"
+      },
+      "modules": [
+        {
+          "id": "CD-01",
+          "title": "Lexical Analysis & Parsing",
+          "topics": [
+            "Lexemes & Tokens",
+            "FIRST and FOLLOW computation",
+            "LL(1) Parser construction",
+            "LR(0), SLR(1), LALR(1), CLR(1) Parsing tables"
+          ],
+          "recommended_videos": [
+            {
+              "title": "FIRST and FOLLOW in Compiler Design - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=1u_kYv9rL9g"
+            },
+            {
+              "title": "LR(0) and SLR(1) Parsing Table - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=2p_V4i9dL1s"
+            }
+          ],
+          "key_points": "CLR(1) has same states as LALR(1) after merging lookahead states. LL(1) check: FIRST(alpha) intersect FIRST(beta) = empty.",
+          "pyq_target": "Solve 18 PYQs on LL(1) and LR parsers"
+        },
+        {
+          "id": "CD-02",
+          "title": "Syntax-Directed Translation & Code Optimization",
+          "topics": [
+            "S-attributed vs L-attributed SDT",
+            "Three-Address Code",
+            "Basic Blocks and Flow Graphs",
+            "Loop Optimization"
+          ],
+          "recommended_videos": [
+            {
+              "title": "S-Attributed and L-Attributed SDT - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=3M_k2r9L5_E"
+            },
+            {
+              "title": "Basic Blocks & Flow Graph Construction - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=4P_d1q8N5qU"
+            }
+          ],
+          "key_points": "S-attributed uses only synthesized attributes (bottom-up). L-attributed can use synthesized and inherited.",
+          "pyq_target": "Solve 14 PYQs on SDT and Basic Blocks"
+        }
+      ]
+    },
+    {
+      "id": "os",
+      "name": "Operating Systems",
+      "weightage": "8-10%",
+      "primary_educators": [
+        "Gate Smashers",
+        "Vishvadeep Gothi"
+      ],
+      "featured_playlist": {
+        "title": "Gate Smashers Operating Systems Series",
+        "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p"
+      },
+      "modules": [
+        {
+          "id": "OS-01",
+          "title": "Process Management & CPU Scheduling",
+          "topics": [
+            "Process State Diagram",
+            "FCFS, SJF, SRTF, Round Robin, Priority Scheduling",
+            "Turnaround time, Waiting time, Response time calculation"
+          ],
+          "recommended_videos": [
+            {
+              "title": "CPU Scheduling Algorithms with Gantt Charts - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=w2WzE3I5sMo"
+            },
+            {
+              "title": "SRTF & Round Robin Scheduling Problems - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=9_t4uFzE_W0"
+            }
+          ],
+          "key_points": "Draw clean Gantt charts. Round Robin context switches depend on quantum size vs arrival intervals.",
+          "pyq_target": "Solve 20 PYQs on CPU Scheduling Algorithms"
+        },
+        {
+          "id": "OS-02",
+          "title": "Process Synchronization & Deadlocks",
+          "topics": [
+            "Critical Section Problem",
+            "Peterson Algorithm",
+            "Counting & Binary Semaphores",
+            "Classical problems: Producer-Consumer",
+            "Banker Algorithm for Deadlock Avoidance"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Counting & Binary Semaphores - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=1P5b_h3c1U0"
+            },
+            {
+              "title": "Banker Algorithm for Deadlock Avoidance - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=7gMLNiEz3nw"
+            }
+          ],
+          "key_points": "Semaphore initial values determine maximum concurrent processes. Need matrix = Max - Allocation.",
+          "pyq_target": "Solve 22 PYQs on Semaphores and Banker Algorithm"
+        },
+        {
+          "id": "OS-03",
+          "title": "Memory Management & Virtual Memory",
+          "topics": [
+            "Paging, Multi-level Paging",
+            "TLB hit/miss EMAT",
+            "Segmentation",
+            "Page Replacement: FIFO, Optimal, LRU"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Paging & Address Translation - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=pJ6qrCB8pDw"
+            },
+            {
+              "title": "EMAT with TLB Hit and Miss Calculations - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=2T8r9V1k9z8"
+            }
+          ],
+          "key_points": "EMAT = Hit_TLB * (TLB_time + Mem_time) + Miss_TLB * (TLB_time + (levels+1)*Mem_time). Belady anomaly occurs in FIFO.",
+          "pyq_target": "Solve 25 PYQs on Paging, EMAT, and LRU"
+        }
+      ]
+    },
+    {
+      "id": "dbms",
+      "name": "Database Management Systems (DBMS)",
+      "weightage": "7-9%",
+      "primary_educators": [
+        "Gate Smashers",
+        "Sanchit Jain",
+        "Amit Khurana"
+      ],
+      "featured_playlist": {
+        "title": "Gate Smashers DBMS Complete Course",
+        "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y"
+      },
+      "modules": [
+        {
+          "id": "DB-01",
+          "title": "ER Model & Relational Algebra",
+          "topics": [
+            "ER to Relational schema mapping",
+            "Cardinality and participation constraints",
+            "Relational Algebra operators (Selection, Projection, Joins, Division)",
+            "Tuple Relational Calculus"
+          ],
+          "recommended_videos": [
+            {
+              "title": "ER Diagram to Table Conversion Rules - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=8V_7vR6w1z8"
+            },
+            {
+              "title": "Relational Algebra Operators - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=3R1P4s8M8jA"
+            }
+          ],
+          "key_points": "Division operator in Relational algebra is used for queries involving FOR ALL conditions.",
+          "pyq_target": "Solve 18 PYQs on Relational Algebra and ER conversion"
+        },
+        {
+          "id": "DB-02",
+          "title": "Functional Dependencies & Normalization",
+          "topics": [
+            "Candidate key finding algorithms",
+            "Attribute closure",
+            "1NF, 2NF, 3NF, BCNF",
+            "Lossless join decomposition",
+            "Dependency preserving decomposition"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Find Candidate Keys in 2 Seconds - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=4M9w2r6d7_E"
+            },
+            {
+              "title": "BCNF and 3NF Decomposition Tricks - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=9_t4uFzE_W1"
+            }
+          ],
+          "key_points": "In 3NF: For X -> A, either X is Super Key or A is Prime Attribute. In BCNF: X must be Super Key.",
+          "pyq_target": "Solve 25 PYQs on Normal Forms and Lossless Decomposition"
+        },
+        {
+          "id": "DB-03",
+          "title": "Transactions, Concurrency Control & Indexing",
+          "topics": [
+            "ACID properties",
+            "Conflict Serializability (Precedence Graph)",
+            "View Serializability",
+            "Two-Phase Locking (2PL, Strict 2PL)",
+            "B-Trees & B+ Trees"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Conflict Serializability with Precedence Graph - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=1K5_0aK_eL2"
+            },
+            {
+              "title": "B and B+ Tree Indexing in DBMS - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=9gB6qjM7tE2"
+            }
+          ],
+          "key_points": "B+ tree leaf nodes contain data pointers and are chained sequentially. Order p means max p block pointers and p-1 keys per node.",
+          "pyq_target": "Solve 22 PYQs on Serializability and B+ Tree order"
+        }
+      ]
+    },
+    {
+      "id": "coa",
+      "name": "Computer Organization & Architecture (COA)",
+      "weightage": "7-9%",
+      "primary_educators": [
+        "Vishvadeep Gothi",
+        "Gate Smashers"
+      ],
+      "featured_playlist": {
+        "title": "Vishvadeep Gothi COA Masterclass",
+        "url": "https://www.youtube.com/playlist?list=PLG9aAp4estM9e6bT9E0XvM3g1xU9E7z3_"
+      },
+      "modules": [
+        {
+          "id": "COA-01",
+          "title": "Machine Instructions & Addressing Modes",
+          "topics": [
+            "Instruction formats",
+            "Addressing modes (Immediate, Direct, Indirect, Register Indirect, Indexed, PC Relative)",
+            "Data-path & Control Unit"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Addressing Modes with Examples - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=6v_m3_fF9zM"
+            },
+            {
+              "title": "Hardwired vs Microprogrammed Control Unit - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=2r1T4b_M2a1"
+            }
+          ],
+          "key_points": "PC-relative addressing mode is position-independent. Understand effective address formulas.",
+          "pyq_target": "Solve 16 PYQs on Addressing modes and Instruction sizes"
+        },
+        {
+          "id": "COA-02",
+          "title": "Instruction Pipelining & Hazards",
+          "topics": [
+            "Pipeline stages",
+            "Speedup calculation",
+            "Throughput & Efficiency",
+            "Structural, Data (RAW, WAR, WAW) & Control hazards",
+            "Branch penalties"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Pipelining Speedup and Throughput - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=F3_d1sQ9K01"
+            },
+            {
+              "title": "Pipeline Hazards RAW, WAR, WAW - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=kYv_6uG59f1"
+            }
+          ],
+          "key_points": "Speedup S = (k + n - 1) * tp / non-pipelined time. RAW hazard can be mitigated with Operand Forwarding.",
+          "pyq_target": "Solve 20 PYQs on Pipelining Speedup and Hazards"
+        },
+        {
+          "id": "COA-03",
+          "title": "Memory Hierarchy & Cache Memory",
+          "topics": [
+            "Direct mapped, Fully associative, Set associative cache",
+            "Tag, Set, Word offset bit division",
+            "Hit ratio, Miss penalty, AMAT"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Cache Memory Mapping - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=JbYQ_bN7X21"
+            },
+            {
+              "title": "Cache Tag and Offset Calculation Tricks - Vishvadeep Gothi",
+              "url": "https://www.youtube.com/watch?v=m7HhG6yVj21"
+            }
+          ],
+          "key_points": "Tag bits = Main Memory address bits - Set bits - Word offset bits. AMAT = Hit_time + Miss_rate * Miss_penalty.",
+          "pyq_target": "Solve 25 PYQs on Cache Mapping and AMAT"
+        }
+      ]
+    },
+    {
+      "id": "networks",
+      "name": "Computer Networks",
+      "weightage": "7-9%",
+      "primary_educators": [
+        "Ravindrababu Ravula",
+        "Gate Smashers"
+      ],
+      "featured_playlist": {
+        "title": "Gate Smashers Computer Networks Series",
+        "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_"
+      },
+      "modules": [
+        {
+          "id": "CN-01",
+          "title": "Data Link Layer & Flow/Error Control",
+          "topics": [
+            "Framing",
+            "Error detection: CRC, Checksum",
+            "Stop-and-Wait, Go-Back-N, Selective Repeat ARQ",
+            "Efficiency & Throughput formula",
+            "CSMA/CD"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Stop and Wait, Go Back N, Selective Repeat - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=v_8R1d8wE71"
+            },
+            {
+              "title": "CSMA/CD Minimum Frame Size Calculation - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=2ybLDQapoV1"
+            }
+          ],
+          "key_points": "Efficiency = 1 / (1 + 2a), where a = Tp / Tt. In CSMA/CD: Min frame size = 2 * Tp * Bandwidth.",
+          "pyq_target": "Solve 22 PYQs on ARQ protocols and CSMA/CD"
+        },
+        {
+          "id": "CN-02",
+          "title": "Network Layer & IP Addressing",
+          "topics": [
+            "IPv4 Header fields (TTL, Fragmentation, DF/MF bits)",
+            "CIDR & Subnetting",
+            "Routing Algorithms: Distance Vector, Link State",
+            "ARP, DHCP, ICMP"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Subnetting & CIDR Made Super Easy - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=mvmN3U0_eA1"
+            },
+            {
+              "title": "IP Header Fragmentation Offset Problems - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=P_Vfl9rVpG1"
+            }
+          ],
+          "key_points": "Fragment offset = (data offset in bytes) / 8. Subnet mask bit math and network ID calculation.",
+          "pyq_target": "Solve 25 PYQs on Subnetting, IP Header, and Routing"
+        },
+        {
+          "id": "CN-03",
+          "title": "Transport & Application Layer",
+          "topics": [
+            "TCP vs UDP headers",
+            "TCP 3-Way Handshake",
+            "TCP Congestion Control (Slow Start, Congestion Avoidance, Fast Retransmit)",
+            "DNS, HTTP, SMTP"
+          ],
+          "recommended_videos": [
+            {
+              "title": "TCP Congestion Control & Window Size Curves - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=NobHlGu_0n1"
+            },
+            {
+              "title": "TCP 3-Way Handshake & Connection Termination - Gate Smashers",
+              "url": "https://www.youtube.com/watch?v=H5JubkIy_s1"
+            }
+          ],
+          "key_points": "Slow start doubles window each RTT until ssthresh. Congestion avoidance increases window by 1 MSS each RTT.",
+          "pyq_target": "Solve 20 PYQs on TCP Congestion Control and DNS"
+        }
+      ]
+    },
+    {
+      "id": "aptitude",
+      "name": "General Aptitude",
+      "weightage": "15%",
+      "primary_educators": [
+        "Saurabh Thakur",
+        "Christy Varghese"
+      ],
+      "featured_playlist": {
+        "title": "Saurabh Thakur Complete GATE Aptitude",
+        "url": "https://www.youtube.com/playlist?list=PL3GpzuvElahME37lE1Wp5iGZq8jZ1_W1p"
+      },
+      "modules": [
+        {
+          "id": "GA-01",
+          "title": "Quantitative & Verbal Aptitude",
+          "topics": [
+            "Number systems",
+            "Permutations & Combinations",
+            "Probability",
+            "Speed Time Distance",
+            "Percentages & Profit Loss",
+            "Reading Comprehension"
+          ],
+          "recommended_videos": [
+            {
+              "title": "Aptitude 15 Marks Strategy - Saurabh Thakur",
+              "url": "https://www.youtube.com/watch?v=A03oI0znAo1"
+            },
+            {
+              "title": "Permutations & Combinations Short Tricks - Saurabh Thakur",
+              "url": "https://www.youtube.com/watch?v=2KpS_k2tFj1"
+            }
+          ],
+          "key_points": "General Aptitude carries 15 marks and is high scoring. 15-20 mins daily practice guarantees 13+ marks.",
+          "pyq_target": "Solve 2 complete 15-mark Aptitude sections from recent GATE papers"
+        }
+      ]
+    }
+  ]
+}

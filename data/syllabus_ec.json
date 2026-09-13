@@ -1,0 +1,757 @@
+{
+  "branch": "EC",
+  "branch_name": "Electronics and Communication Engineering",
+  "exam_target": "GATE 2027",
+  "subjects": [
+    {
+      "id": "NET",
+      "name": "Networks, Signals & Systems",
+      "weightage_marks": "14-16 Marks",
+      "priority": "Highest",
+      "recommended_educators": [
+        {
+          "name": "Ankit Goyal (Kreatryx)",
+          "channel": "Kreatryx / Unacademy GATE",
+          "playlist_url": "https://www.youtube.com/results?search_query=Ankit+Goyal+Network+Theory+GATE"
+        },
+        {
+          "name": "Neso Academy (Signals & Systems)",
+          "channel": "Neso Academy",
+          "playlist_url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhG6s3jYIU48CqsT5cyiDTO"
+        },
+        {
+          "name": "Umesh Dhande (Network Analysis)",
+          "channel": "Gate Academy",
+          "playlist_url": "https://www.youtube.com/results?search_query=Umesh+Dhande+Network+Analysis+GATE"
+        }
+      ],
+      "modules": [
+        {
+          "id": "NET-M01",
+          "title": "Network Theorems & DC Circuit Solution",
+          "key_concepts": [
+            "KCL & KVL Applications",
+            "Thevenin & Norton Equivalent",
+            "Superposition Theorem",
+            "Maximum Power Transfer Theorem"
+          ],
+          "formulas": [
+            "P_max = (V_th^2) / (4 * R_th) for resistive load",
+            "Z_L = Z_th* (Complex conjugate) for AC max power transfer",
+            "Star-Delta: R_A = (R1*R2 + R2*R3 + R3*R1)/R_opposite"
+          ],
+          "practice_pyqs": "5 Practice PYQs (2018-2024)",
+          "youtube_class": {
+            "title": "Network Theorems in One Shot for GATE ECE",
+            "educator": "Ankit Goyal (AIR 1)",
+            "url": "https://www.youtube.com/results?search_query=Ankit+Goyal+Network+Theorems+GATE+ECE"
+          }
+        },
+        {
+          "id": "NET-M02",
+          "title": "Transient Response of RC, RL & RLC Circuits",
+          "key_concepts": [
+            "Initial Conditions (t=0- vs t=0+)",
+            "RC & RL Time Constants",
+            "Underdamped, Overdamped & Critical Damping"
+          ],
+          "formulas": [
+            "v(t) = v(inf) + [v(0+) - v(inf)] * e^(-t/tau)",
+            "tau_RC = R_eq * C, tau_RL = L / R_eq",
+            "i_L(0-) = i_L(0+), v_C(0-) = v_C(0+)"
+          ],
+          "practice_pyqs": "6 Practice PYQs on DC Transients",
+          "youtube_class": {
+            "title": "Transient Analysis Masterclass for GATE ECE",
+            "educator": "Kreatryx / Gate Academy",
+            "url": "https://www.youtube.com/results?search_query=Transient+Analysis+GATE+ECE+Ankit+Goyal"
+          }
+        },
+        {
+          "id": "NET-M03",
+          "title": "Two-Port Networks & Resonance",
+          "key_concepts": [
+            "Z, Y, ABCD & h Parameters",
+            "Reciprocity & Symmetry Conditions",
+            "Series & Parallel RLC Resonance",
+            "Quality Factor & Bandwidth"
+          ],
+          "formulas": [
+            "Z-parameters: V1=z11*I1+z12*I2, V2=z21*I1+z22*I2",
+            "Symmetry: z11=z22, A=D. Reciprocity: z12=z21, AD-BC=1",
+            "Series Resonance: omega_0 = 1/sqrt(LC), Q = (1/R)*sqrt(L/C), BW = omega_0 / Q"
+          ],
+          "practice_pyqs": "4 Practice PYQs on Two-Port & Q-factor",
+          "youtube_class": {
+            "title": "Two Port Networks & Resonance Complete Concept",
+            "educator": "Neso Academy",
+            "url": "https://www.youtube.com/results?search_query=Two+Port+Networks+GATE+ECE+Neso+Academy"
+          }
+        },
+        {
+          "id": "NET-M04",
+          "title": "Continuous & Discrete Signals & LTI Systems",
+          "key_concepts": [
+            "Impulse, Step, Ramp Signals",
+            "Linearity, Time-Invariance, Causality, BIBO Stability",
+            "Continuous & Discrete Convolution"
+          ],
+          "formulas": [
+            "y(t) = x(t) * h(t) = integral x(tau)*h(t-tau) dtau",
+            "BIBO Stability: integral |h(t)| dt < infinity",
+            "Convolution duration: Length = M + N - 1"
+          ],
+          "practice_pyqs": "6 Practice PYQs on Convolution & System Properties",
+          "youtube_class": {
+            "title": "LTI Systems & Convolution Properties for GATE",
+            "educator": "Neso Academy",
+            "url": "https://www.youtube.com/results?search_query=Neso+Academy+Signals+and+Systems+Convolution"
+          }
+        },
+        {
+          "id": "NET-M05",
+          "title": "Fourier Series, Fourier Transform & Laplace Transform",
+          "key_concepts": [
+            "CTFT Properties (Duality, Modulation, Parseval)",
+            "Laplace Transform & ROC",
+            "Transfer Function & Stability"
+          ],
+          "formulas": [
+            "X(s) = integral x(t)*e^(-st) dt, s = sigma + j*omega",
+            "Initial value: x(0+) = lim_{s->inf} s*X(s)",
+            "Final value: x(inf) = lim_{s->0} s*X(s) (if poles in LHP)"
+          ],
+          "practice_pyqs": "5 Practice PYQs on Laplace & Fourier Transforms",
+          "youtube_class": {
+            "title": "Laplace and Fourier Transforms Master Lecture",
+            "educator": "Gate Academy / Neso Academy",
+            "url": "https://www.youtube.com/results?search_query=Laplace+Transform+Signals+and+Systems+GATE+ECE"
+          }
+        },
+        {
+          "id": "NET-M06",
+          "title": "Z-Transform & Discrete-Time Processing",
+          "key_concepts": [
+            "Z-Transform definition & ROC",
+            "Inverse Z-Transform",
+            "System Stability on Unit Circle"
+          ],
+          "formulas": [
+            "X(z) = sum x[n]*z^(-n)",
+            "Stable if and only if all poles lie inside unit circle (|z| < 1)",
+            "a^n * u[n] <--> 1 / (1 - a*z^(-1)), |z| > |a|"
+          ],
+          "practice_pyqs": "4 Practice PYQs on Z-Transform and Stability",
+          "youtube_class": {
+            "title": "Z-Transform Full Concept & PYQs for GATE",
+            "educator": "Neso Academy",
+            "url": "https://www.youtube.com/results?search_query=Z+Transform+Neso+Academy+GATE+ECE"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EDC",
+      "name": "Electronic Devices (EDC)",
+      "weightage_marks": "9-11 Marks",
+      "priority": "High",
+      "recommended_educators": [
+        {
+          "name": "Kamesh Shrivastava",
+          "channel": "Kreatryx / Unacademy",
+          "playlist_url": "https://www.youtube.com/results?search_query=Kamesh+Shrivastava+EDC+GATE"
+        },
+        {
+          "name": "Neso Academy (Electronic Devices)",
+          "channel": "Neso Academy",
+          "playlist_url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiw-GZRqfnlVIBz9dxrqHJS"
+        }
+      ],
+      "modules": [
+        {
+          "id": "EDC-M01",
+          "title": "Semiconductor Physics & Carrier Transport",
+          "key_concepts": [
+            "Energy Bands, Direct vs Indirect bandgap",
+            "Fermi Level, Intrinsic & Extrinsic",
+            "Drift, Diffusion, Mobility, Einstein Relation"
+          ],
+          "formulas": [
+            "Mass Action Law: n * p = n_i^2",
+            "Einstein Relation: D / mu = V_t = kT / q (26 mV at 300K)",
+            "J_total = q*(n*mu_n + p*mu_p)*E + q*D_n*(dn/dx) - q*D_p*(dp/dx)"
+          ],
+          "practice_pyqs": "5 Practice PYQs on Carrier Transport",
+          "youtube_class": {
+            "title": "Semiconductor Physics in One Shot for GATE ECE",
+            "educator": "Kamesh Shrivastava",
+            "url": "https://www.youtube.com/results?search_query=Kamesh+Shrivastava+Semiconductor+Physics+GATE"
+          }
+        },
+        {
+          "id": "EDC-M02",
+          "title": "P-N Junction Diode & Zener Breakdown",
+          "key_concepts": [
+            "Built-in Potential V_bi",
+            "Depletion Width W",
+            "Depletion vs Diffusion Capacitance",
+            "Avalanche vs Zener Breakdown"
+          ],
+          "formulas": [
+            "V_bi = V_t * ln((N_A * N_D) / n_i^2)",
+            "W = sqrt((2*eps/q)*(1/N_A + 1/N_D)*(V_bi - V))",
+            "C_j = eps*A / W"
+          ],
+          "practice_pyqs": "6 Practice PYQs on Depletion Width and Capacitance",
+          "youtube_class": {
+            "title": "PN Junction Diode Physics & Equations for GATE",
+            "educator": "Neso Academy",
+            "url": "https://www.youtube.com/results?search_query=PN+Junction+Diode+Neso+Academy+GATE"
+          }
+        },
+        {
+          "id": "EDC-M03",
+          "title": "MOSFET Physics & MOS Capacitor",
+          "key_concepts": [
+            "MOS Modes: Accumulation, Depletion, Inversion",
+            "Threshold Voltage V_th",
+            "Linear vs Saturation Regions",
+            "Channel Length Modulation"
+          ],
+          "formulas": [
+            "Saturation (V_DS >= V_GS - V_th): I_D = (1/2)*mu*C_ox*(W/L)*(V_GS - V_th)^2",
+            "Linear (V_DS < V_GS - V_th): I_D = mu*C_ox*(W/L)*[(V_GS - V_th)*V_DS - (V_DS^2)/2]",
+            "g_m = sqrt(2*mu*C_ox*(W/L)*I_D)"
+          ],
+          "practice_pyqs": "7 Practice PYQs on MOS Capacitor & MOSFETs",
+          "youtube_class": {
+            "title": "MOSFET Physics & MOS Capacitor Complete Breakdown",
+            "educator": "Kamesh Shrivastava",
+            "url": "https://www.youtube.com/results?search_query=MOS+Capacitor+and+MOSFET+GATE+ECE+Kamesh"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ANALOG",
+      "name": "Analog Circuits",
+      "weightage_marks": "10-12 Marks",
+      "priority": "High",
+      "recommended_educators": [
+        {
+          "name": "Umesh Dhande (Analog Electronics)",
+          "channel": "Gate Academy",
+          "playlist_url": "https://www.youtube.com/results?search_query=Umesh+Dhande+Analog+Circuits+GATE"
+        },
+        {
+          "name": "Neso Academy (Op-Amps & Diodes)",
+          "channel": "Neso Academy",
+          "playlist_url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiw-GZRqfnlVIBz9dxrqHJS"
+        }
+      ],
+      "modules": [
+        {
+          "id": "ANA-M01",
+          "title": "Diode Circuits: Clippers, Clampers & Rectifiers",
+          "key_concepts": [
+            "Clippers & Clampers Analysis",
+            "Half/Full Wave Rectifiers",
+            "Ripple Factor, PIV & Filters"
+          ],
+          "formulas": [
+            "Half Wave: V_dc = V_m/pi, Ripple Factor = 1.21, PIV = V_m",
+            "Bridge Full Wave: V_dc = 2*V_m/pi, Ripple Factor = 0.482, PIV = V_m"
+          ],
+          "practice_pyqs": "5 Practice PYQs on Clippers and Clampers",
+          "youtube_class": {
+            "title": "Clippers and Clampers Master Tricks for GATE",
+            "educator": "Umesh Dhande",
+            "url": "https://www.youtube.com/results?search_query=Clippers+and+Clampers+GATE+Analog+Umesh+Dhande"
+          }
+        },
+        {
+          "id": "ANA-M02",
+          "title": "BJT & MOSFET Small-Signal Amplifiers",
+          "key_concepts": [
+            "Biasing & Operating Point Q",
+            "Common Emitter, Common Collector, Common Base",
+            "Small Signal Models (r_pi, g_m)",
+            "Miller Theorem & Frequency Response"
+          ],
+          "formulas": [
+            "g_m = I_C / V_t (approx 40*I_C in mA)",
+            "r_pi = beta / g_m",
+            "CE Gain: A_v = -g_m * (R_C || R_L)",
+            "Miller: C_in = C * (1 - A_v)"
+          ],
+          "practice_pyqs": "6 Practice PYQs on BJT/MOSFET Gain & Resistance",
+          "youtube_class": {
+            "title": "BJT & MOSFET Small Signal Analysis for GATE ECE",
+            "educator": "Gate Academy",
+            "url": "https://www.youtube.com/results?search_query=BJT+Small+Signal+Analysis+GATE+ECE"
+          }
+        },
+        {
+          "id": "ANA-M03",
+          "title": "Operational Amplifiers (Op-Amps) & Applications",
+          "key_concepts": [
+            "Virtual Short Concept",
+            "Inverting & Non-Inverting Op-Amp",
+            "Summing, Difference, Instrumentation Amp",
+            "Integrator, Differentiator, Schmitt Trigger",
+            "Active Filters & Oscillators"
+          ],
+          "formulas": [
+            "Inverting: A_v = -R_f / R_1, Non-Inverting: A_v = 1 + R_f / R_1",
+            "CMRR = |A_d / A_c|, Slew Rate = max |dV_out/dt| = 2*pi*f_max*V_m"
+          ],
+          "practice_pyqs": "7 Practice PYQs on Op-Amps and Schmitt Triggers",
+          "youtube_class": {
+            "title": "Op-Amp Complete Concepts & PYQs for GATE",
+            "educator": "Neso Academy",
+            "url": "https://www.youtube.com/results?search_query=Operational+Amplifiers+Neso+Academy+GATE"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIGITAL",
+      "name": "Digital Circuits",
+      "weightage_marks": "9-11 Marks",
+      "priority": "High",
+      "recommended_educators": [
+        {
+          "name": "Neso Academy (Digital Electronics)",
+          "channel": "Neso Academy",
+          "playlist_url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3kWf646MMg9fYnG36II"
+        }
+      ],
+      "modules": [
+        {
+          "id": "DIG-M01",
+          "title": "Boolean Algebra, Logic Gates & K-Maps",
+          "key_concepts": [
+            "De Morgan Theorems",
+            "K-Map Minimization",
+            "Universal Gates (NAND/NOR)",
+            "Static & Dynamic Hazards"
+          ],
+          "formulas": [
+            "Dual: AND <--> OR, 0 <--> 1",
+            "Universal NAND: AND(2), OR(3), XOR(4), XNOR(5)"
+          ],
+          "practice_pyqs": "5 Practice PYQs on K-Maps",
+          "youtube_class": {
+            "title": "K-Map Minimization Masterclass",
+            "educator": "Neso Academy",
+            "url": "https://www.youtube.com/results?search_query=K-Map+Minimization+Neso+Academy+GATE"
+          }
+        },
+        {
+          "id": "DIG-M02",
+          "title": "Combinational Circuits & Data Converters (ADC/DAC)",
+          "key_concepts": [
+            "Multiplexers (MUX)",
+            "Decoders & Encoders",
+            "Full Adders",
+            "Flash, SAR & Dual Slope ADC",
+            "R-2R Ladder DAC"
+          ],
+          "formulas": [
+            "ADC Resolution = V_ref / (2^n - 1)",
+            "Flash ADC Comparators = 2^n - 1 (1 clock conversion)",
+            "SAR ADC Conversion Time = n clock cycles"
+          ],
+          "practice_pyqs": "6 Practice PYQs on MUX & ADC/DAC",
+          "youtube_class": {
+            "title": "Multiplexers and ADC/DAC Complete Lecture for GATE",
+            "educator": "Neso Academy",
+            "url": "https://www.youtube.com/results?search_query=Multiplexers+and+ADC+DAC+GATE+ECE+Neso"
+          }
+        },
+        {
+          "id": "DIG-M03",
+          "title": "Sequential Circuits, Counters & Setup/Hold Time",
+          "key_concepts": [
+            "Flip-Flops (SR, JK, D, T)",
+            "Synchronous & Asynchronous Counters",
+            "MOD-N Design",
+            "Setup Time & Hold Time Violations",
+            "FSM (Mealy vs Moore)"
+          ],
+          "formulas": [
+            "JK: Q_next = J*Q_bar + K_bar*Q",
+            "T_clk >= t_cd + t_comb + t_su (Setup condition)",
+            "t_cd + t_comb_min >= t_hold (Hold condition)"
+          ],
+          "practice_pyqs": "7 Practice PYQs on Counter Design & Setup/Hold Violations",
+          "youtube_class": {
+            "title": "Counters, Setup and Hold Time for GATE ECE",
+            "educator": "Neso Academy",
+            "url": "https://www.youtube.com/results?search_query=Counters+Setup+and+Hold+Time+GATE+Neso"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CONTROL",
+      "name": "Control Systems",
+      "weightage_marks": "9-11 Marks",
+      "priority": "High",
+      "recommended_educators": [
+        {
+          "name": "Ankit Goyal (Kreatryx)",
+          "channel": "Kreatryx / Unacademy",
+          "playlist_url": "https://www.youtube.com/results?search_query=Ankit+Goyal+Control+Systems+GATE"
+        }
+      ],
+      "modules": [
+        {
+          "id": "CTRL-M01",
+          "title": "Transfer Functions & Block Diagram / SFG",
+          "key_concepts": [
+            "Mason Gain Formula",
+            "Block Diagram Reduction",
+            "Feedback Transfer Function"
+          ],
+          "formulas": [
+            "T = sum(P_k * Delta_k) / Delta",
+            "Delta = 1 - sum(Loops) + sum(Non-touching pairs)..."
+          ],
+          "practice_pyqs": "4 Practice PYQs on SFG",
+          "youtube_class": {
+            "title": "Mason Gain Formula & SFG Tricks for GATE",
+            "educator": "Ankit Goyal",
+            "url": "https://www.youtube.com/results?search_query=Mason+Gain+Formula+GATE+Ankit+Goyal"
+          }
+        },
+        {
+          "id": "CTRL-M02",
+          "title": "Time Response & Routh-Hurwitz Stability",
+          "key_concepts": [
+            "Second-Order Specifications (zeta, omega_n)",
+            "Rise time, Peak time, Settling time, Peak overshoot",
+            "Steady-State Error e_ss",
+            "Routh-Hurwitz Stability Criterion"
+          ],
+          "formulas": [
+            "Peak Overshoot: M_p = e^(-pi*zeta / sqrt(1 - zeta^2)) * 100%",
+            "Settling time (2%): t_s = 4 / (zeta*omega_n)",
+            "e_ss = 1/(1+K_p) for step, 1/K_v for ramp, 1/K_a for parabola"
+          ],
+          "practice_pyqs": "6 Practice PYQs on Time Response and Routh Hurwitz",
+          "youtube_class": {
+            "title": "Time Response of Second Order Systems Complete Concept",
+            "educator": "Ankit Goyal",
+            "url": "https://www.youtube.com/results?search_query=Second+Order+System+GATE+Control+Systems"
+          }
+        },
+        {
+          "id": "CTRL-M03",
+          "title": "Root Locus, Bode Plot & Nyquist Stability",
+          "key_concepts": [
+            "Root Locus Rules & Breakaway Points",
+            "Bode Plot Magnitude & Phase",
+            "Gain Margin & Phase Margin",
+            "Nyquist Stability Criterion (N = P - Z)"
+          ],
+          "formulas": [
+            "Root Locus Asymptote Centroid = (sum(Poles) - sum(Zeros)) / (P - Z)",
+            "Gain Margin = -20*log10(|G(j*omega_pc)|)",
+            "Phase Margin = 180 + angle(G(j*omega_gc))",
+            "Nyquist: N = P - Z"
+          ],
+          "practice_pyqs": "6 Practice PYQs on Bode Plot and Nyquist",
+          "youtube_class": {
+            "title": "Bode Plot and Nyquist Stability Masterclass for GATE",
+            "educator": "Ankit Goyal",
+            "url": "https://www.youtube.com/results?search_query=Bode+Plot+Nyquist+GATE+Control+Systems+Ankit+Goyal"
+          }
+        },
+        {
+          "id": "CTRL-M04",
+          "title": "State Space Analysis",
+          "key_concepts": [
+            "State Model (A, B, C, D)",
+            "State Transition Matrix phi(t) = e^(At)",
+            "Controllability & Observability (Kalman Test)"
+          ],
+          "formulas": [
+            "H(s) = C * (sI - A)^(-1) * B + D",
+            "Controllability: Q_c = [B, AB, ..., A^(n-1)*B] (Rank = n)",
+            "Observability: Q_o = [C^T, A^T*C^T, ..., (A^T)^(n-1)*C^T] (Rank = n)"
+          ],
+          "practice_pyqs": "5 Practice PYQs on State Space",
+          "youtube_class": {
+            "title": "State Space Analysis for GATE ECE Complete in One Video",
+            "educator": "Ankit Goyal",
+            "url": "https://www.youtube.com/results?search_query=State+Space+Analysis+GATE+ECE+Ankit+Goyal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "COMM",
+      "name": "Communications",
+      "weightage_marks": "10-12 Marks",
+      "priority": "High",
+      "recommended_educators": [
+        {
+          "name": "Saket Verma (Communications)",
+          "channel": "Kreatryx / Unacademy",
+          "playlist_url": "https://www.youtube.com/results?search_query=Saket+Verma+Communication+Systems+GATE"
+        }
+      ],
+      "modules": [
+        {
+          "id": "COM-M01",
+          "title": "Random Processes & Noise in Communications",
+          "key_concepts": [
+            "Random Variables (Mean, Variance, Gaussian, Q-func)",
+            "WSS Processes & Autocorrelation R_XX(tau)",
+            "Power Spectral Density S_XX(f)",
+            "White Noise through LTI Filters"
+          ],
+          "formulas": [
+            "S_XX(f) = Fourier{ R_XX(tau) }",
+            "Average Power = R_XX(0) = integral S_XX(f) df",
+            "Output PSD: S_YY(f) = |H(f)|^2 * S_XX(f)"
+          ],
+          "practice_pyqs": "5 Practice PYQs on Random Processes",
+          "youtube_class": {
+            "title": "Random Variables & Processes for GATE ECE",
+            "educator": "Saket Verma",
+            "url": "https://www.youtube.com/results?search_query=Random+Processes+GATE+ECE+Saket+Verma"
+          }
+        },
+        {
+          "id": "COM-M02",
+          "title": "Analog Communications (AM, FM, PM)",
+          "key_concepts": [
+            "Standard AM, DSB-SC, SSB-SC, VSB",
+            "Superheterodyne Receiver (Image frequency)",
+            "FM Modulation Index & Carson Bandwidth Rule"
+          ],
+          "formulas": [
+            "AM Power: P_t = P_c * (1 + mu^2 / 2)",
+            "Carson Rule: BW = 2 * (Delta_f + f_m) = 2 * f_m * (beta + 1)",
+            "Image Frequency: f_image = f_signal + 2*f_IF"
+          ],
+          "practice_pyqs": "6 Practice PYQs on AM and FM",
+          "youtube_class": {
+            "title": "Analog Communications (AM & FM) in One Shot for GATE",
+            "educator": "Saket Verma",
+            "url": "https://www.youtube.com/results?search_query=Analog+Communication+GATE+ECE+Saket+Verma"
+          }
+        },
+        {
+          "id": "COM-M03",
+          "title": "Digital Communications (PCM, Matched Filter & BER)",
+          "key_concepts": [
+            "Sampling Theorem & Nyquist Rate",
+            "PCM Quantization SNR",
+            "Matched Filter (h(t) = s(T-t), Max SNR)",
+            "BPSK, QPSK, BFSK, QAM",
+            "Bit Error Rate (BER) Analysis"
+          ],
+          "formulas": [
+            "Nyquist Rate = 2 * f_max",
+            "PCM SNR_dB = 1.76 + 6*n",
+            "Matched Filter Max SNR = 2*E / N_0",
+            "BPSK Error Probability: P_e = Q(sqrt(2*E_b / N_0))"
+          ],
+          "practice_pyqs": "7 Practice PYQs on Digital Modulation and Matched Filter",
+          "youtube_class": {
+            "title": "Digital Modulation Schemes & Matched Filter for GATE ECE",
+            "educator": "Saket Verma",
+            "url": "https://www.youtube.com/results?search_query=Digital+Communication+GATE+ECE+Saket+Verma"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EMFT",
+      "name": "Electromagnetics (EMFT)",
+      "weightage_marks": "8-10 Marks",
+      "priority": "High",
+      "recommended_educators": [
+        {
+          "name": "Qaisar Hafiz (Engineers Zone)",
+          "channel": "Engineers Zone",
+          "playlist_url": "https://www.youtube.com/results?search_query=Qaisar+Hafiz+Electromagnetics+GATE"
+        }
+      ],
+      "modules": [
+        {
+          "id": "EMF-M01",
+          "title": "Maxwell Equations & Uniform Plane Waves",
+          "key_concepts": [
+            "Maxwell 4 Equations",
+            "Poynting Vector & Power Density",
+            "Skin Depth & Wave Impedance",
+            "Polarization (Linear, Circular, Elliptical)"
+          ],
+          "formulas": [
+            "eta_0 = sqrt(mu_0 / eps_0) approx 377 Ohm (120*pi)",
+            "Skin Depth: delta = sqrt(2 / (omega * mu * sigma))",
+            "Poynting Vector: S = E x H, P_avg = (1/2)*Real{E x H*}"
+          ],
+          "practice_pyqs": "5 Practice PYQs on Plane Waves & Polarization",
+          "youtube_class": {
+            "title": "Uniform Plane Waves & Polarization Tricks for GATE ECE",
+            "educator": "Qaisar Hafiz",
+            "url": "https://www.youtube.com/results?search_query=Uniform+Plane+Waves+GATE+ECE+Qaisar+Hafiz"
+          }
+        },
+        {
+          "id": "EMF-M02",
+          "title": "Transmission Lines & Impedance Matching",
+          "key_concepts": [
+            "Characteristic Impedance Z_0",
+            "Reflection Coefficient Gamma & VSWR",
+            "Lossless Line Input Impedance",
+            "Quarter-Wave Transformer"
+          ],
+          "formulas": [
+            "Z_0 = sqrt(L/C) for lossless",
+            "Gamma = (Z_L - Z_0) / (Z_L + Z_0)",
+            "VSWR = (1 + |Gamma|) / (1 - |Gamma|)",
+            "Quarter-wave matching: Z_line = sqrt(Z_in * Z_L)"
+          ],
+          "practice_pyqs": "6 Practice PYQs on VSWR and Transmission Lines",
+          "youtube_class": {
+            "title": "Transmission Lines Formulas & Shortcuts for GATE",
+            "educator": "Qaisar Hafiz",
+            "url": "https://www.youtube.com/results?search_query=Transmission+Lines+GATE+ECE+Formulas"
+          }
+        },
+        {
+          "id": "EMF-M03",
+          "title": "Waveguides & Antennas Basics",
+          "key_concepts": [
+            "Rectangular Waveguides (TE10 dominant mode, Cutoff f_c)",
+            "Phase vs Group Velocity (v_p * v_g = c^2)",
+            "Antenna Gain, Directivity & Friis Formula"
+          ],
+          "formulas": [
+            "Cutoff: f_c = (c/2)*sqrt((m/a)^2 + (n/b)^2)",
+            "TE10 Cutoff: f_c = c / (2*a)",
+            "Friis: P_r = P_t * G_t * G_r * (lambda / (4*pi*d))^2"
+          ],
+          "practice_pyqs": "5 Practice PYQs on Waveguides and Antennas",
+          "youtube_class": {
+            "title": "Waveguides and Antennas Complete Concept for GATE",
+            "educator": "Qaisar Hafiz",
+            "url": "https://www.youtube.com/results?search_query=Waveguides+and+Antennas+GATE+ECE+Qaisar+Hafiz"
+          }
+        }
+      ]
+    },
+    {
+      "id": "MATH",
+      "name": "Engineering Mathematics",
+      "weightage_marks": "13-15 Marks",
+      "priority": "Highest",
+      "recommended_educators": [
+        {
+          "name": "Dr. Gajendra Purohit",
+          "channel": "Dr. Gajendra Purohit",
+          "playlist_url": "https://www.youtube.com/results?search_query=Dr+Gajendra+Purohit+Engineering+Mathematics+GATE"
+        }
+      ],
+      "modules": [
+        {
+          "id": "MAT-M01",
+          "title": "Linear Algebra (Matrices, Eigenvalues & Rank)",
+          "key_concepts": [
+            "Matrix Rank & System Consistency AX=B",
+            "Eigenvalues & Eigenvectors Properties",
+            "Cayley-Hamilton Theorem"
+          ],
+          "formulas": [
+            "Sum of Eigenvalues = Trace(A), Product = Det(A)",
+            "Real Symmetric Matrix has purely REAL eigenvalues"
+          ],
+          "practice_pyqs": "5 Practice PYQs on Eigenvalues",
+          "youtube_class": {
+            "title": "Linear Algebra for GATE in One Shot",
+            "educator": "Dr. Gajendra Purohit",
+            "url": "https://www.youtube.com/results?search_query=Gajendra+Purohit+Linear+Algebra+GATE"
+          }
+        },
+        {
+          "id": "MAT-M02",
+          "title": "Calculus & Vector Analysis",
+          "key_concepts": [
+            "Maxima & Minima",
+            "Gradient, Divergence & Curl",
+            "Green, Stokes & Gauss Divergence Theorems"
+          ],
+          "formulas": [
+            "Gauss Divergence: surface F.dS = volume (div F) dV",
+            "Stokes: line F.dr = surface (curl F).dS"
+          ],
+          "practice_pyqs": "5 Practice PYQs on Vector Calculus",
+          "youtube_class": {
+            "title": "Vector Calculus Complete Concept for GATE",
+            "educator": "Dr. Gajendra Purohit",
+            "url": "https://www.youtube.com/results?search_query=Vector+Calculus+GATE+Gajendra+Purohit"
+          }
+        },
+        {
+          "id": "MAT-M03",
+          "title": "Probability & Statistics for ECE",
+          "key_concepts": [
+            "Conditional Probability & Bayes Theorem",
+            "Binomial, Poisson, Normal Distributions",
+            "Mean, Variance & Correlation"
+          ],
+          "formulas": [
+            "Bayes Theorem: P(A|B) = P(B|A)*P(A) / P(B)",
+            "Poisson: P(X=k) = (lambda^k * e^(-lambda)) / k!"
+          ],
+          "practice_pyqs": "6 Practice PYQs on Probability",
+          "youtube_class": {
+            "title": "Probability & Statistics for GATE ECE",
+            "educator": "Dr. Gajendra Purohit",
+            "url": "https://www.youtube.com/results?search_query=Probability+and+Statistics+GATE+Gajendra+Purohit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "APT",
+      "name": "General Aptitude",
+      "weightage_marks": "15 Marks",
+      "priority": "High",
+      "recommended_educators": [
+        {
+          "name": "Saurabh Thakur",
+          "channel": "Unacademy / Creative Learning",
+          "playlist_url": "https://www.youtube.com/results?search_query=Saurabh+Thakur+GATE+Aptitude"
+        }
+      ],
+      "modules": [
+        {
+          "id": "APT-M01",
+          "title": "Quantitative Aptitude & Spatial Reasoning",
+          "key_concepts": [
+            "Percentages, Ratios, Time-Work, Speed-Distance",
+            "Permutations & Combinations",
+            "Spatial Aptitude (Transformations, Mirror Images)"
+          ],
+          "formulas": [
+            "Work = Rate * Time",
+            "Relative speed: S1 + S2 (Opposite), |S1 - S2| (Same)"
+          ],
+          "practice_pyqs": "5 Practice PYQs on Aptitude",
+          "youtube_class": {
+            "title": "GATE General Aptitude in One Shot",
+            "educator": "Saurabh Thakur",
+            "url": "https://www.youtube.com/results?search_query=Saurabh+Thakur+General+Aptitude+GATE"
+          }
+        }
+      ]
+    }
+  ]
+}

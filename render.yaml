@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: gate-2027-telegram-ai-bot
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python scripts/bot_service.py"
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PORT
+        value: "8080"
